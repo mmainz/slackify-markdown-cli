@@ -1,0 +1,33 @@
+{
+  "name": "slackify-markdown-cli",
+  "version": "1.0.1",
+  "description": "Convert markdown to Slack formatting.",
+  "bin": {
+    "slackify-markdown": "bin/slackify-markdown.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmainz/slackify-markdown-cli.git"
+  },
+  "keywords": [
+    "slack",
+    "markdown",
+    "converter"
+  ],
+  "author": "Mario Mainz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmainz/slackify-markdown-cli/issues"
+  },
+  "homepage": "https://github.com/mmainz/slackify-markdown-cli#readme",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "slackify-markdown": "^3.0.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
